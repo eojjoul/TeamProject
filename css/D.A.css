@@ -1,0 +1,123 @@
+/* 기본 초기화 */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #228B22
+}
+
+/* 고정된 타이틀 */
+header h1 {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 60px;
+    left: 12vw;
+    font-size: 32px;
+    z-index: 1000;
+    color: 	#F0FFF0;
+    font-family: 'Do Hyeon', sans-serif;
+    cursor: pointer;
+}
+
+/* h1을 피하기 위한 공간 확보 */
+.nav-container {
+    padding-top: 80px; /* h1 높이만큼 여백 */
+    overflow: hidden;   /* float 정리 */
+}
+
+/* 메뉴 영역 */
+.Menu {
+    margin-left: 25vw;  /* 화면 너비의 절반 */
+    width: 50vw;        /* 화면 너비의 25% */
+    float: left;
+    height: 80px;
+}
+
+/* 로그인 영역 */
+.login {
+    width: 25vw;        /* 화면 너비의 25% */
+    float: left;
+    height: 80px;
+}
+
+/* 메뉴 리스트 초기화 */
+.Menu ul,
+.login ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+/* 메뉴 항목 정렬 */
+.Menu ul li,
+.login ul li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 줄바꿈 방지 */
+.Menu ul li a {
+    white-space: nowrap;
+    font-size: 20px;
+    text-decoration: none;
+    color: 	#F0FFF0;
+}
+.login ul li a {
+    white-space: nowrap;
+    font-size: 20px;
+    text-decoration: none;
+    color: 	#006400;
+}
+
+.Menu a:link,
+.login a:link {
+    color: #F0FFF0;
+    text-decoration: none;
+}
+
+.Menu a:visited,
+.login a:visited {
+    border-bottom: 3px #F0FFF0 solid;
+    text-decoration: none;
+}
+
+.Menu a:hover,
+.login a:hover {
+    color: #F0FFF0;
+    text-decoration: none;
+    border-bottom: 3px #006400 solid;
+}
+
+.Menu a.play {
+    border-bottom: 3px #006400 solid;
+    text-decoration: none;
+}
+.Menu a.hmm2 {
+    border-bottom: 3px #006400 solid;
+    text-decoration: none;
+}
+
+.Menu a.hmm3 {
+    border-bottom: 3px #006400 solid;
+    text-decoration: none;
+}
+
+.Menu a.hmm4 {
+    border-bottom: 3px #006400 solid;
+    text-decoration: none;
+}
+
+.Menu a.hmm5 {
+    border-bottom: 3px #006400 solid;
+    text-decoration: none;
+}
+
+.Menu a.hmm6 {
+    border-bottom: 3px #006400 solid;
+    text-decoration: none;
+}
